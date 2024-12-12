@@ -1,0 +1,30 @@
+{
+  "name": "react-auto-doc",
+  "version": "1.0.0",
+  "description": "A tool to generate Swagger-like documentation for React components.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node src/cli/generateDocs.js",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "react",
+    "documentation",
+    "swagger",
+    "components",
+    "cli"
+  ],
+  "author": "Tomas Cavataio",
+  "license": "MIT",
+  "dependencies": {
+    "react-docgen": "^5.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0"
+  }
+}
